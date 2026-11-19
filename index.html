@@ -61,10 +61,10 @@
 <body>
     <div class="container">
         <h1>Privacy Policy</h1>
-        <p class="effective-date">Effective date: October 19, 2026</p>
+        <p class="effective-date">Effective date: November 19, 2026</p>
 
         <div class="summary">
-            <p><strong>In short:</strong> LiftLedger stores your workout data on your device. We do not collect personal information and do not sell any data. If you choose to enable Google Drive backup, your workout data is uploaded to your own Google Drive account. Anonymous crash and usage reports are sent to Firebase to help us fix bugs.</p>
+            <p><strong>In short:</strong> LiftLedger stores all your workout data locally on your device. We do not collect personal information, usage analytics, or crash reports, and we do not sell or share any data. If you choose to enable Google Drive backup, your workout data is uploaded only to your own Google Drive account.</p>
         </div>
 
         <h2>1. What data LiftLedger stores</h2>
@@ -83,29 +83,25 @@
         <p><strong>Google Drive backup (optional)</strong></p>
         <p>If you choose to sign in with your Google account and enable Google Drive backup, LiftLedger uploads a copy of your workout data (the same data listed in Section 1) to a "LiftLedger" folder in <strong>your own Google Drive</strong>. This feature is entirely optional and off by default. LiftLedger uses the restricted <code>drive.file</code> scope, which means it can only access files it created &mdash; it cannot see or modify any other files in your Google Drive. Your Google email address is displayed in the app to confirm which account is connected, but it is not stored or sent anywhere else. You can sign out at any time to revoke access.</p>
 
-        <p><strong>Firebase (automatic)</strong></p>
-        <p>LiftLedger uses <strong>Google Firebase</strong> for two purposes:</p>
-        <ul>
-            <li><strong>Crashlytics</strong> &mdash; automatically collects crash reports when the app crashes. These reports include device model, Android version, and the technical details of the crash. They do not include your workout data or any personal information.</li>
-            <li><strong>Analytics</strong> &mdash; collects anonymous, aggregated usage data such as which screens are visited and how often the app is opened. It uses a random ID for your copy of the app, never your name or email, and Google estimates your approximate region (such as your country) from your internet address. This helps us understand how the app is used so we can improve it.</li>
-        </ul>
-        <p>Firebase data is processed by Google under their own privacy policy. You can learn more at <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">firebase.google.com/support/privacy</a>.</p>
+        <p><strong>Google Play in-app review (optional)</strong></p>
+        <p>After you complete several workouts, LiftLedger may show Google Play's standard in-app rating prompt. Choosing whether to rate or review is completely optional, and any review interaction is handled directly by Google Play under Google's privacy policy.</p>
 
         <h2>3. What we do NOT collect</h2>
         <ul>
             <li>No names or account information is stored on our servers (we have no servers)</li>
             <li>Your Google email is only displayed locally in the app &mdash; it is not sent to us</li>
-            <li>No precise location: the app never asks for your location (only the approximate region Firebase Analytics estimates, described above)</li>
+            <li>No location data of any kind</li>
+            <li>No usage analytics, telemetry, or third-party crash-reporting SDKs</li>
             <li>No contacts, photos, or files</li>
             <li>No advertising identifiers</li>
-            <li>No data is sold or shared with third parties for advertising</li>
+            <li>No data is sold or shared with third parties</li>
         </ul>
 
         <h2>4. Permissions</h2>
         <p>LiftLedger may request the following permissions:</p>
         <ul>
             <li><strong>Notifications</strong> &mdash; used for workout reminders, inactivity nudges, and weekly recaps. You can disable these at any time in the app settings or in Android system settings.</li>
-            <li><strong>Internet</strong> &mdash; required for Google Drive backup, Firebase crash reports, and Firebase analytics. No internet access is needed for core workout tracking functionality.</li>
+            <li><strong>Internet</strong> &mdash; used only for optional Google Drive backup (and Google Play's in-app review dialog if shown). No internet access is needed for core workout tracking functionality.</li>
         </ul>
 
         <h2>5. Data security</h2>
